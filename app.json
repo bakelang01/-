@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/test",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "随机数字生成器",
+    "navigationBarBackgroundColor": "#ffffaf"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

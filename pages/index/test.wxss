@@ -1,0 +1,42 @@
+.container {
+  padding: 20px;
+}
+.form {
+  margin-bottom: 20px;
+}
+input,textarea {
+  margin-bottom: 10px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(195, 233, 255);
+}
+
+textarea {
+  padding: 15px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+}
+
+.checkbox {
+  text-align: center;
+  height: 50px;
+}
+
+.result text {
+  display: block;
+  margin-top: 10px;
+}
+
+.res_text{
+  text-align: center;
+  color: rgb(13, 14, 15);
+}
+
+.btu {
+  background-color: lightgreen;
+}
+
+.btn_copy{
+  margin-top: 40px;
+  background-color: lightgreen;
+}

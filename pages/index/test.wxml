@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="form">
+    <input placeholder="最小值: 0" type="number" bindinput="onMinInput" />
+    <input placeholder="最大值: 100" type="number" bindinput="onMaxInput" />
+    <input placeholder="生成数量: 1" type="number" bindinput="onCountInput" />
+    <checkbox-group bindchange="onAllowDuplicatesChange">
+      <checkbox class="checkbox" value="allowDuplicates" bindchange="">允许重复</checkbox>
+    </checkbox-group>
+
+    
+    <textarea placeholder="过滤掉的数字，用逗号分隔" bindinput="onFilterInput"></textarea>
+    <button class="btu" bindtap="generateNumbers">生成数字</button>
+  </view>
+  <view class="result">
+    <text class="res_text">生成结果:</text>
+    <text selectable="true">{{resultString}}</text>
+    <button class="btn_copy" bindtap="copyToClipboard">复制</button>
+  </view>
+</view>
