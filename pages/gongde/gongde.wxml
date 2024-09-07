@@ -1,0 +1,13 @@
+<!--pages/gongde/gongde.wxml-->
+<view>
+  <text class="gongde_count">功德数: {{gongde_count}}</text>
+  <view class="container">
+  <image
+    class="image {{isActive ? 'active' : ''}}"
+    src="../img/木鱼.svg"
+    bindtap="animateImage"
+  ></image>
+  <text class="floating-text.{{showText ? 'show' : ''}}">功德+1</text>
+</view>
+</view>
+

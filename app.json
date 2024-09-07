@@ -1,12 +1,29 @@
 {
   "pages": [
-    "pages/index/test",
+    "pages/first/first",
+    "pages/gongde/gongde",
     "pages/logs/logs"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "随机数字生成器",
-    "navigationBarBackgroundColor": "#ffffaf"
+    "navigationBarTitleText": "BlackLang_tool",
+    "navigationBarBackgroundColor": "#ffffea"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "首页",
+        "iconPath": "pages/img/首页.png",
+        "selectedIconPath": "pages/img/首页.png"
+      },
+      {
+        "pagePath": "pages/gongde/gongde",
+        "text": "木鱼",
+        "iconPath": "pages/img/木鱼.png",
+        "selectedIconPath": "pages/img/木鱼.png"
+      }
+    ]
   },
   "style": "v2",
   "componentFramework": "glass-easel",

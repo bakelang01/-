@@ -1,0 +1,6 @@
+<!--pages/first/first.wxml-->
+<view class="body">
+  <view class="img_v">
+    <image class="img_tit" src="../img/疯狂.svg" alt=""></image>
+  </view>
+</view>

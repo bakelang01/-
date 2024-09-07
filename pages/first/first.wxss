@@ -1,0 +1,26 @@
+/* pages/first/first.wxss */
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 高度设置为全屏高度 */
+  background-color: rgb(223, 221, 101);
+}
+/* 
+.tit_v{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-size: 20px;
+  width: 100%;
+  height: 300px;
+  /* background-color: green; */
+
+.img_v {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100%;
+}
+

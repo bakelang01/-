@@ -1,0 +1,51 @@
+/* pages/gongde/gongde.wxss */
+/* 定义动画效果 */
+/* 定义动画效果 */
+@keyframes scale-down-up {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 高度设置为全屏高度 */
+  background-color: rgb(223, 221, 101);
+}
+
+.image {
+  width: 200px; /* 初始宽度，可以根据需要调整 */
+  height: 200px; /* 初始高度，可以根据需要调整 */
+  margin-top: 70%;
+  transition: transform 0.5s ease;
+}
+
+.image.active {
+  animation: scale-down-up 0.5s forwards;
+}
+
+
+/* 定义文字飘动效果 */
+.floating-text {
+  position: absolute;
+  bottom: 20px;
+  font-size: 20px;
+  color: black;
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+.floating-text.show {
+  bottom: 60%;
+  opacity: 1;
+}
+
+/* 功德label */
+.gongde_count{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+}
